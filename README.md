@@ -1,4 +1,4 @@
-# Make sure PiMox or Proxmox is up and working in your PI/PC
+# Make sure PiMox arm 64 or Proxmox is up and working in your PI/PC 
 
 1. **Create a new network bridge in your proxmox by going in to the network settings (Example vmbr1)**
 
