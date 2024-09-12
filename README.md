@@ -1,6 +1,7 @@
 # Make sure PiMox or Proxmox is up and working in your PI/PC
 
 1. **Create a new network bridge in your proxmox by going in to the network settings (Example vmbr1)**
+  https://github.com/codecs02-marcher/OpenWrt_OpenVpn_Pimox-RPI4-/blob/images/Capture0.JPG
 
    
 2. **Download openwrt ct image (rootfs.tar.xz) from https://images.linuxcontainers.org/images/openwrt**
@@ -33,7 +34,7 @@
     chown 100000:100000 /dev/net/tun
 
 
-7. **find your newly created CT and go to network settings**
+6. **find your newly created CT and go to network settings**
 
     edit **both network devices** and assign them a bridge (Example **eth0-vmbr0** and **eth1-vmbr1**)
 
@@ -41,7 +42,7 @@
 
 ***If you are using Raspberry pi like me the console will not work for this CT***
 
-go back to your **Proxmox Shell** and type **"pct enter (vmid)"**
+7. go back to your **Proxmox Shell** and type **"pct enter (vmid)"**
 
 **Example:**
 
@@ -74,7 +75,7 @@ again enter the CT by using **"pct enter 250"**
 
 type **"ip a"** to know your **local ip**
 
-use your web browser to access **Luci Interface**
+8. use your web browser to access **Luci Interface**
 
 No password just hit **"login"** and **set a password**
 
