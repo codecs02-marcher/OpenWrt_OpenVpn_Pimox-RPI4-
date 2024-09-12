@@ -109,6 +109,13 @@ put username and password of your .ovpn file at the bottom box
 find a line "auth-user-pass" in the top box 
 add /etc/openvpn/{instance name}.auth after "auth-user-pass"
 example: auth-user-pass /etc/openvpn/JP.auth
+
+remove this line from above box if you these 
+
+" script-security 2
+  up /etc/openvpn/update-resolv-conf
+  down /etc/openvpn/update-resolv-conf "
+
  hit "Save" and go back and click at the top on "VPN>>OPENVPN
  again click on edit to confirm if the changes are saved
 
