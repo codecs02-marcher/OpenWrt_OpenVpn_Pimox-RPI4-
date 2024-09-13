@@ -31,7 +31,8 @@
 6. **nano into /etc/pve/lxc/xxx.conf**
 
        nano /etc/pve/lxc/250.conf
-           ![Capture2](https://github.com/user-attachments/assets/7b39fee6-4c9d-48b0-ac31-262494e8e369)
+   
+   ![Capture2](https://github.com/user-attachments/assets/7b39fee6-4c9d-48b0-ac31-262494e8e369)
 
 
 **add two lines at the bottom**
